@@ -1,0 +1,14 @@
+{
+  "name": "name-shortner",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel ./index.html & parcel watch ./index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "typescript": "^4.8.3"
+  }
+}
